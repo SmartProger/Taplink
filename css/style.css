@@ -78,3 +78,54 @@ body {
   line-height: 14px;
   margin-top: 0;
 }
+
+.card {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background: white;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  max-width: 194px;
+  margin: auto;
+  gap: 15px;
+}
+.button {
+  height: 30px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 32 px;
+  flex-shrink: 1;
+  width: 100%;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 17px;
+  gap: 10px;
+  margin-bottom: 6px;
+  text-decoration: none;
+  color: white;
+}
+
+.button.vk {
+  background: #4c75a3;
+}
+
+.button.yt {
+  background: red;
+}
+
+.button.gh {
+  background: black;
+}
+
+.button.hh {
+  background: #d6001c;
+}
